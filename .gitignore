@@ -1,9 +1,10 @@
-.vagrant
 /cookbooks
-
-# Bundler
-bin/*
-.bundle/*
-
-.kitchen/
-.kitchen.local.yml
+/.vagrant
+/.kitchen
+/.librarian
+/tmp
+Cheffile.lock
+Berksfile.lock
+chef-zookeeper*.tgz
+metadata.json
+.build
